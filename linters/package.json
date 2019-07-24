@@ -1,32 +1,38 @@
 {
-    "name": "nerdery-eslint",
-    "description": "Nerdery ESLint Ruleset",
-    "version": "2.1.0",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/thenerdery/javascript-standards.git"
-    },
-    "keywords": [
-        "style guide",
-        "lint",
-        "nerdery",
-        "es6",
-        "es7",
-        "es2015",
-        "es2016"
-    ],
-    "author": "Nerdery",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/thenerdery/javascript-standards/issues"
-    },
-    "homepage": "https://github.com/thenerdery/javascript-standards",
-    "dependencies": {
-        "eslint": "3.19.0",
-        "babel-eslint": "7.2.2",
-        "grunt": "1.0.1",
-        "grunt-eslint": "19.0.0",
-        "jit-grunt": "0.10.0",
-        "load-grunt-tasks": "3.5.2"
-    }
+  "name": "nerdery-eslint",
+  "description": "Nerdery ESLint Ruleset",
+  "version": "2.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thenerdery/javascript-standards.git"
+  },
+  "keywords": [
+    "style guide",
+    "lint",
+    "nerdery",
+    "es6",
+    "es7",
+    "es2015",
+    "es2016"
+  ],
+  "author": "Nerdery",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thenerdery/javascript-standards/issues"
+  },
+  "homepage": "https://github.com/thenerdery/javascript-standards",
+  "dependencies": {
+    "eslint": "3.19.0",
+    "babel-eslint": "7.2.2",
+    "grunt": "1.0.1",
+    "grunt-eslint": "19.0.0",
+    "jit-grunt": "0.10.0",
+    "load-grunt-tasks": "3.5.2",
+    "snyk": "^1.189.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
