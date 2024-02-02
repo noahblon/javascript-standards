@@ -23,7 +23,7 @@
     "homepage": "https://github.com/thenerdery/javascript-standards",
     "dependencies": {
         "eslint": "3.19.0",
-        "babel-eslint": "7.2.2",
+        "babel-eslint": "10.1.0",
         "grunt": "1.0.1",
         "grunt-eslint": "19.0.0",
         "jit-grunt": "0.10.0",
